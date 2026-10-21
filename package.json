@@ -1,0 +1,15 @@
+{
+  "name": "genlayer-studionet-prediction-market",
+  "version": "1.0.0",
+  "description": "Notes and evidence for a football prediction-market contract on GenLayer Studionet (GenVM v0.2.16), as of 2026-10-21.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "genlayer": "0.39.2",
+    "genlayer-js": "1.1.8"
+  },
+  "private": true
+}

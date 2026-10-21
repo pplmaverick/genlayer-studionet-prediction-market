@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+*.keystore
+keypair.json
+.genlayer/
+keystores/
+genlayer-config.json
+*.key
+*.pem
