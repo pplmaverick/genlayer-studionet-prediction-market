@@ -1,7 +1,7 @@
 # Football prediction market on GenLayer Studionet — notes and a working v0.2 build
 
-**As of 2026-10-21 (UTC):** the hosted GenLayer Studionet (`https://studio.genlayer.com/api`, chain id 61999) accepts contracts written for
-GenVM v0.2.x and rejects the v0.3-style examples currently on `genlayer-studio` `main` with a bare `invalid_contract` — while the
+**As of 2026-10-21 (UTC):** the hosted GenLayer Studionet (`https://studio.genlayer.com/api`, chain id 61999) accepts
+v0.2-style contracts (the server reports GenVM v0.2.16) and rejects the v0.3-style examples currently on `genlayer-studio` (e.g. at commit f799be5fb7) with a bare `invalid_contract` — while the
 deployment transaction still finalizes and the CLI still prints "Contract deployed successfully.". This repo contains a prediction-market
 contract that deploys and resolves on Studionet, and the evidence behind that statement.
 
